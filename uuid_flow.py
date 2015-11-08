@@ -10,5 +10,5 @@ def main(wf):
     wf.send_feedback()
 
 if __name__ == u"__main__":
-    wf = Workflow(update_settings={'version': '0.1', 'github_slug': 'cholick/uuid_alfred_flow'})
+    wf = Workflow(update_settings={'version': 'v0.1', 'github_slug': 'cholick/uuid_alfred_flow'})
     sys.exit(wf.run(main))
